@@ -8,7 +8,7 @@
     <style>
         :root {
             --bg-dark: #121212;
-            --mc-green: #38e038; /* 마인크래프트 잔디색 느낌 */
+            --mc-green: #38e038;
             --mc-purple: #bc13fe;
             --pixel-white: #ffffff;
             --border-pixel: inset -4px -4px 0px 0px #000, inset 4px 4px 0px 0px #555;
@@ -24,7 +24,7 @@
             align-items: center;
             overflow-x: hidden;
             background-image: radial-gradient(circle, #222 1px, transparent 1px);
-            background-size: 30px 30px; /* 픽셀 배경 그리드 */
+            background-size: 30px 30px; 
         }
 
         header {
@@ -40,7 +40,7 @@
             text-transform: uppercase;
         }
 
-        /* 픽셀 컨테이너 스타일 */
+       
         .pixel-card {
             background: #333;
             border: 4px solid #fff;
@@ -52,7 +52,7 @@
             position: relative;
         }
 
-        /* 도트 캐릭터 (SVG) */
+       
         .character-container {
             display: flex;
             align-items: center;
@@ -67,11 +67,11 @@
             image-rendering: pixelated;
         }
 
-        /* 퀴즈/정보 텍스트 */
+      
         .info-box h2 { color: var(--mc-green); margin-top: 0; }
         .info-box p { margin: 5px 0; font-size: 1.1rem; }
 
-        /* 우리반 약속 (인벤토리 스타일) */
+      
         .inventory-list {
             list-style: none;
             padding: 0;
@@ -96,7 +96,7 @@
             transform: scale(1.03);
         }
 
-        /* D-Day 타이머 */
+      
         .dday-box {
             text-align: center;
             background: #000;
@@ -192,4 +192,5 @@
         updateTimer();
     </script>
 </body>
+
 </html>
